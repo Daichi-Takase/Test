@@ -1,3 +1,4 @@
 com\example\demo3\common\StringAppendTest.class
 com\example\demo3\common\HelloCommonTest.class
 com\example\demo3\DemoApplicationTests.class
+com\example\demo3\service\jdbcTestTest.class

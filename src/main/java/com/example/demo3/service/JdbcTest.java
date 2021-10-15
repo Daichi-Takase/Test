@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+>>>>>>> 2f78daa929cd5162a2ac51c4bf3f83af8428652d
 package com.example.demo3.service;
 
 import java.sql.Connection;
@@ -8,7 +15,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 public class JdbcTest {                                                                                                                                                                                                                             
+=======
+/**
+ *
+ * @author toisu
+ */
+public class JdbcTest { 
+>>>>>>> 2f78daa929cd5162a2ac51c4bf3f83af8428652d
         
         public static long testJdbc(String str) {
             
@@ -53,7 +68,12 @@ public class JdbcTest {
                     e.printStackTrace();
                 }
             }
+<<<<<<< HEAD
             // return nameList.stream().filter(n -> n.equals(str)).count();
                return nameList.stream().distinct().count();
         }
+=======
+            return nameList.stream().filter(n -> n.equals(str))                                                                                                                                                                                      .count();
+        } 
+>>>>>>> 2f78daa929cd5162a2ac51c4bf3f83af8428652d
 }

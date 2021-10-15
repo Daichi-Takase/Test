@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 
 class StringAppendTest {
 
-	@Test
-	void test1() throws InterruptedException {
-		String result1 = StringAppend.append1("a");
-		String result2 = StringAppend.append2("b");
-		int a = 1;
-		a = 0;
-	}
+    @Test
+    void test1() throws InterruptedException {
+        String result1 = StringAppend.append1("a");
+        String result2 = StringAppend.append2("b");
+        int a = 1;
+        a = 0;
+    }
 }

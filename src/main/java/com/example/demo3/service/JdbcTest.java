@@ -8,11 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author toisu
- */
-public class JdbcTest { 
+public class JdbcTest {                                                                                                                                                                                                                             
         
         public static long testJdbc(String str) {
             
@@ -57,6 +53,7 @@ public class JdbcTest {
                     e.printStackTrace();
                 }
             }
-            return nameList.stream().filter(n -> n.equals(str)).count();
+            // return nameList.stream().filter(n -> n.equals(str)).count();
+               return nameList.stream().distinct().count();
         }
 }

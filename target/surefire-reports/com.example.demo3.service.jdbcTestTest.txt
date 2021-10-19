@@ -1,24 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: com.example.demo3.service.jdbcTestTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.351 s <<< FAILURE! - in com.example.demo3.service.jdbcTestTest
-test1  Time elapsed: 0.225 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
-	at com.example.demo3.service.jdbcTestTest.test1(jdbcTestTest.java:12)
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.465 s <<< FAILURE! - in com.example.demo3.service.jdbcTestTest
+test1  Time elapsed: 0.326 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo3.service.jdbcTestTest.test1(jdbcTestTest.java:11)
 
-test2  Time elapsed: 0.029 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <3>
-	at com.example.demo3.service.jdbcTestTest.test2(jdbcTestTest.java:18)
+test2  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo3.service.jdbcTestTest.test2(jdbcTestTest.java:17)
 
-test3  Time elapsed: 0.033 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <3>
-	at com.example.demo3.service.jdbcTestTest.test3(jdbcTestTest.java:24)
+test3  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo3.service.jdbcTestTest.test3(jdbcTestTest.java:23)
 
-test4  Time elapsed: 0.029 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <null> but was: <3>
-	at com.example.demo3.service.jdbcTestTest.test4(jdbcTestTest.java:30)
+test4  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo3.service.jdbcTestTest.test4(jdbcTestTest.java:29)
 
-test6  Time elapsed: 0 s  <<< FAILURE!
+test5  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.demo3.service.jdbcTestTest.test5(jdbcTestTest.java:35)
+
+test6  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 	at com.example.demo3.service.jdbcTestTest.test6(jdbcTestTest.java:41)
 

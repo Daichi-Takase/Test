@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.demo3.common.HelloCommonTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! - in com.example.demo3.common.HelloCommonTest
-test6  Time elapsed: 0.011 s  <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: is "2021/10/13" but actual is "2021/10/13"
-     but: was <Wed Oct 13 00:00:00 JST 2021>
-	at com.example.demo3.common.HelloCommonTest.test6(HelloCommonTest.java:92)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.example.demo3.common.HelloCommonTest

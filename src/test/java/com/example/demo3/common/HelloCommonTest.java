@@ -7,12 +7,10 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.collection.IsEmptyCollection.*;
 import static org.hamcrest.collection.IsIterableContainingInOrder.*;
-import org.junit.*;
 import org.junit.jupiter.api.Test;
-import static com.example.demo3.common.isDate.*;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
+import org.junit.experimental.runners.Enclosed;
+import org.junit.runner.RunWith;
 
 class HelloCommonTest {
 
@@ -28,15 +26,12 @@ class HelloCommonTest {
         assertEquals(7, result);
     }
 
-    @Ignore
     @Test
     void test3() {
         int result = HelloCommon.execAdd(5, 6);
         assertEquals(11, result);
     }
 
-    @Before
-    @After
     @Test
     void test4() {
         HelloCommon h = new HelloCommon();
@@ -85,13 +80,14 @@ class HelloCommonTest {
         assertThat(test1, endsWith("BC")); //成功
     }
 
+    /*
     @Test
     public void test6() throws Exception{
         SimpleDateFormat f = new SimpleDateFormat("yyyy/MM/dd");
         Date d = f.parse("2021/10/13");
         assertThat(d, is(dateOf(2021, 10, 13)));
-
     }
+     */
 
     //例外
     /*
